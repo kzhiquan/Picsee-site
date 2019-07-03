@@ -2,7 +2,10 @@ module.exports = {
     title: "Vuepress Blog Example",
     description: "just another blog",
     themeConfig: {
-      nav: [{ text: "Blog", link: "/blog/" }, { text: "About", link: "/" }],
+      nav: [{ text: "首页", link: "/" }, 
+            { text: "迭代", link: "/version/" },
+            { text: "文档", link: "/doc/" },
+            { text: "关于", link: "/about/" },],
     },
     postcss: {
       plugins: [
