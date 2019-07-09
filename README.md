@@ -18,5 +18,19 @@
         </div>
     </div>
     <!-- product func breif -->
+    <div class="">
+        <div class="lg:max-w-5xl mx-auto px-10 py-6">
+            <div style="height: 15.5rem" class="flex justify-between">
+                <div style="width: 13rem" class="flex flex-col justify-center items-center">
+                    <img style="width: 42px":src="$withBase('/img_clearup.png')" alt="clear up">
+                    <div class="text-lg py-3">照片整理</div>
+                    <div class="text-base text-gray-600 text-center">通过标签、时间、地点、格式、任务、文件夹等快速的整理归类照片。</div>
+                </div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+        </div>
+    </div>
 
 </div>
