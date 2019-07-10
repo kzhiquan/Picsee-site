@@ -1,9 +1,4 @@
----
-home: true
----
-
 # 版本历史
-
 ## v1.0.1（2019.04.12)
 - 支持新建文件夹、重命名文件夹
 - 支持拖拽方式移动图片等来管理相册
@@ -14,3 +9,24 @@ home: true
 
 ## v1.0（2019.03.12）
 - 首次发布
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+::: tip
+This is a tip
+:::
+
+``` js{4}
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+```
