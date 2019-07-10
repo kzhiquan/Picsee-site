@@ -1,4 +1,6 @@
-
+---
+layout: HomeLayout
+---
 <div class="">
     <!-- product name -->
     <div style="background-Color: #222222">
