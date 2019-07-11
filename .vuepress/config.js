@@ -4,7 +4,7 @@ module.exports = {
     themeConfig: {
       nav: [{ text: "首页", link: "/" }, 
             { text: "迭代", link: "/version/" },
-            { text: "文档", link: "/doc/" },
+            { text: "文档", link: "/blog/" },
             { text: "关于", link: "/about/" },],
     },
     postcss: {

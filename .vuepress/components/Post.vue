@@ -1,8 +1,7 @@
 <template>
     <div>
-        <Nav class="top-0"/>
+        <Nav/>
         <Content class="theme-default-content"/>
-        <Footer class="bottom-0"/>
+        <Footer/>
     </div>
 </template>
-

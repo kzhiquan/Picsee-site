@@ -75,8 +75,8 @@
         <div class="">
             <div class="lg:max-w-5xl mx-auto">
                 <div class="border-solid border-t"></div>
-                <div class="flex flex-col lg:flex-row justify-between items-start">
-                    <div class="pt-5 lg:pt-8 pl-4">
+                <div class="flex flex-col lg:flex-row justify-between items-start px-2">
+                    <div class="pt-5 pl-2 lg:pt-8">
                         <div class="text-2xl">屏幕截图</div>
                         <ul class="list-disc text-base text-gray-700 pl-10 pt-3">
                             <li>丰富的画图工具
@@ -98,7 +98,7 @@
                             <li>复制到剪切板、保存截图、分享截图生成链接</li>
                         </ul>
                     </div>
-                    <img class="py-5 lg:py-8 px-4" :src="$withBase('/photo_snip.png')" alt="clearup">
+                    <img class="py-5 lg:py-8" :src="$withBase('/photo_snip.png')" alt="clearup">
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 ---
-layout: PostLayout
+layout: ShortPost
 date: 2019-02-12
+title: 测试
 ---
 
 # post-2
