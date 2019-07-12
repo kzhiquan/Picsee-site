@@ -1,5 +1,5 @@
 ---
-layout: ShortPost
+layout: Post
 date: 2019-02-11
 title: 如何批量给图片加水印
 ---

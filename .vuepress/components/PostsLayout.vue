@@ -1,7 +1,7 @@
 <template>
-  <div style="min-height: 100%" class="relative">
+  <div style="min-height: 100%；position: relative;">
     <Nav/>
-    <div style="max-width: 740px;margin: 0 auto; padding-bottom: 82px" class="py-8 px-6">
+    <div style="max-width: 740px;margin: 0 auto;" class="py-8 px-6 pb-24">
       <div class="text-4xl font-bold pt-12">使用文档</div>
       <div class="border-solid border-t mb-3"></div>
       <div class="pt-3">
@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <Footer class="absolute bottom-0 inset-x-0"/>
+    <Footer/>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 ---
-layout: ShortPost
+layout: Post
 date: 2019-02-12
 title: 测试
 ---

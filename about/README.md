@@ -1,5 +1,5 @@
 ---
-layout: ShortPost
+layout: Post
 ---
 # 关于
 ## 讨论研究

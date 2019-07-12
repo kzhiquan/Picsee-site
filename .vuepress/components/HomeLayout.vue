@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col h-full">
-    <Nav class="top-0"/>
-    <div class="w-full">
+  <div class="relative min-h-full">
+    <Nav/>
+    <div class="w-full pb-24">
       <div class="">
         <!-- product name -->
         <div style="background-Color: #222222">
@@ -182,7 +182,7 @@
         </div>
       </div>
     </div>
-    <Footer class="bottom-0"/>
+    <Footer/>
   </div>
 </template>
 
