@@ -1,6 +1,9 @@
 module.exports = {
-    title: "Vuepress Blog Example",
-    description: "just another blog",
+    title: "Picsee - 专业的图片批量编辑器、照片整理、Markdown图床工具",
+    description: "专业的图片批量编辑器、照片整理、Markdown图床工具",
+    head: [
+      ['link', { rel: 'icon', href: '/logo.png'}]
+    ],
     themeConfig: {
       nav: [{ text: "首页", link: "/" }, 
             { text: "迭代", link: "/version/" },
