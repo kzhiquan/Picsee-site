@@ -5,3 +5,10 @@ before_install:
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host 66.42.94.70\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- npm install
+scripts:
+- npm run build
+
+after_success:
+- cd .vuepress/dist
+- scp -o stricthostkeychecking=no -r ./* root@66.42.94.70:/usr/local/nginx/html/picsee.chitaner.com
