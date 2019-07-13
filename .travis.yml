@@ -11,4 +11,4 @@ scripts:
 
 after_success:
 - cd .vuepress/dist
-- scp -o stricthostkeychecking=no -r ./* root@66.42.94.70:/usr/local/nginx/html/picsee.chitaner.com
+- scp -o stricthostkeychecking=no -r ./* root@66.42.94.70:/www/picsee
