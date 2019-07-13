@@ -6,9 +6,7 @@ before_install:
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host 66.42.94.70\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install
-scripts:
 - npm run build
-
 after_success:
 - cd .vuepress/dist
 - scp -o stricthostkeychecking=no -r ./* root@66.42.94.70:/www/picsee
