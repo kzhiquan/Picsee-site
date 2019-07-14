@@ -4,9 +4,9 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_8fdff2d88322_key -iv $encrypted_8fdff2d88322_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
-- echo -e "Host 66.42.94.70\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- echo -e "Host 45.32.78.50\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install
 - npm run build
 after_success:
 - cd .vuepress/dist
-- scp -o stricthostkeychecking=no -r ./* root@66.42.94.70:/www/picsee
+- scp -o stricthostkeychecking=no -r ./* root@45.32.78.50:/www/picsee
