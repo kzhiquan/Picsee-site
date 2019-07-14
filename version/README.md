@@ -2,6 +2,11 @@
 layout: Post
 ---
 # 版本历史
+
+## v1.0.6（2019.07.14)
+- Picsee官网站点[https://picsee.chitaner.com](https://picsee.chitaner.com)上线
+- 改进Picsee描述信息
+
 ## v1.0.5.1（2019.07.01)
 - 紧急修复截图插入的文本不能编辑问题
 
