@@ -5,7 +5,7 @@ title: Picsee 简介
 ---
 
 ## 简介
-Picsee(图目)是一个专业的图片批量编辑器、照片整理查看编辑、Markdown图床工具。
+Picsee(图目)是一个专业的图片批量编辑器、照片整理查看编辑、Markdown图床工具。a
 ![home.png](https://i.loli.net/2019/07/13/5d29ae8a49c5469900.png)
 
 ## 主要功能
