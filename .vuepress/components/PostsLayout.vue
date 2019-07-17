@@ -20,7 +20,6 @@ export default {
   name: "PostsLayout",
   computed: {
     posts() {
-      //console.log(this.$site.pages)
       return this.$site.pages
         .filter(x => x.path.startsWith("/blog/"))
         .filter(x => !x.frontmatter.blog_index)
