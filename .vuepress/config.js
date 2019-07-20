@@ -2,6 +2,7 @@ module.exports = {
     title: "Picsee - 专业的图片批量编辑器、照片整理、Markdown图床工具",
     description: "专业的图片批量编辑器、照片整理、Markdown图床工具",
     ga: "UA-33278530-1",
+    serviceWorker: true,
     head: [
       ['link', { rel: 'icon', href: '/logo.png'}]
     ],
