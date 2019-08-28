@@ -35,7 +35,7 @@
                         <router-link :to="{hash: '#photo_snip'}" @click.native="anchorHashCheck" class="flex flex-col items-center">
                             <img style="width: 40px" class="pt-3" :src="$withBase('/img_snip.png')" alt="snip">
                             <div class="text-lg py-3">屏幕截图</div>
-                            <div class="text-base text-gray-600 text-center">快速截图、标注、添加箭头，马赛克，进行分享，提高工作效率。</div>
+                            <div class="text-base text-gray-600 text-center">快速截图、标注、添加箭头，马赛克、滚动截图，进行分享，提高工作效率。</div>
                         </router-link>
                     </div>
                     <div class="flex justify-between items-center">
@@ -96,6 +96,7 @@
                                 </ul>
                             </li>
                             <li class="font-bold">撤销、重做、删除图元</li>
+                            <li class="font-bold">支持长截图，即滚动截图</li>
                             <li>支持重复调整截图区域、窗口截图</li>
                             <li>复制到剪切板、保存截图、分享截图生成链接</li>
                         </ul>
