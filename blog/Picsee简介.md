@@ -31,5 +31,5 @@ title: Picsee 简介
 
 ## 联系
 - 详细介绍：[https://picsee.chitaner.com](https://picsee.chitaner.com)
-- 邮件联系：[kzhiquan@gmail.com](kzhiquan@gmail.com)
+- 邮件联系：[office.chitaner@gmail.com](office.chitaner@gmail.com)
 - Telegram: [(https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)](https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)

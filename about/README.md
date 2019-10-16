@@ -7,5 +7,5 @@ layout: Post
 - 对产品或者某一功能有新的想法，请加入我们的[Telegram群](https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)，一起探讨。
 
 ## 联系信息
-- 邮件：[kzhiquan@gmail.com](mailto:kzhiquan@gmail.com)
+- 邮件：[office.chitaner@gmail.com](mailto:office.chitaner@gmail.com)
 - 微博：[@Picsee](http://weibo.com/picsee)
