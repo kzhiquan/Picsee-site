@@ -9,6 +9,7 @@ layout: Post
 - 新增浏览图片时，显示图片元信息
 - 版本升级会重置用户数据，包括标签库等，所以升级慎重
 - 模块化, Framework优化工程Picsee
+- 统计分析由Fabric切换到appcenter
 
 
 ## v1.1.1（2019.10.22)
