@@ -6,8 +6,9 @@
       <div class="border-solid border-t mb-3"></div>
       <div class="pt-3">
         <div v-for="post in posts">
-          <router-link :to="post.path" class="text-2xl">{{ post.title }}</router-link>
-          <div class="pb-5 font-hairline">{{ post.frontmatter.date.substring(0,10) }}</div>
+          <router-link :to="post.path" class="text-2xl pr-2">{{ post.title }}</router-link>
+          <div class="inline-block font-hairline">{{ post.frontmatter.date.substring(0,10) }}</div>
+          <div v-html="post.excerpt" class="pb-4 text-base"></div>
         </div>
       </div>
     </div>
