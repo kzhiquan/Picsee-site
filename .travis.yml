@@ -2,11 +2,11 @@ language: node_js
 node_js: stable
 before_install:
 - openssl aes-256-cbc -K $encrypted_8fdff2d88322_key -iv $encrypted_8fdff2d88322_iv
-  -in id_rsa.enc -out ~/.ssh/id_rsa -d
-- chmod 600 ~/.ssh/id_rsa
-- echo -e "Host 95.179.186.54\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  -in id_rsa.enc -out ~/.ssh/id_rsa_blog -d
+- chmod 600 ~/.ssh/id_rsa_blog
+- echo -e "Host 45.63.79.24\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install
 - npm run build
 after_success:
 - cd .vuepress/dist
-- scp -o stricthostkeychecking=no -r ./* root@95.179.186.54:/www/picsee
+- scp -o stricthostkeychecking=no -r ./* root@45.63.79.24:/www/picsee
