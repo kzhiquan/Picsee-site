@@ -1,6 +1,6 @@
 ---
 layout: Post
-date: 2020-01-18
+date: 2019-09-21
 title: python环境搭建
 ---
 
@@ -14,3 +14,4 @@ title: python环境搭建
 - 进入虚拟环境 source venv/bin/activate
 - 安装所需要的库 pip install -r requirements.txt
 - 离开 deactivate
+
