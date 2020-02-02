@@ -1,7 +1,6 @@
 module.exports = {
     title: "Picsee - 专业的图片批量编辑器、照片整理、Markdown图床工具",
     description: "专业的图片批量编辑器、照片整理、Markdown图床工具",
-    ga: "UA-33278530-1",
     serviceWorker: true,
     head: [
       ['link', { rel: 'icon', href: '/logo.png'}]
@@ -18,5 +17,11 @@ module.exports = {
         require("autoprefixer"),
       ],
     },
-    plugins: ['vuepress-plugin-reading-time'],
+    plugins: ['vuepress-plugin-reading-time',
+              ['@vuepress/google-analytics',
+                {
+                  'ga': 'UA-150406837-2'
+                }
+              ],
+            ],
   }

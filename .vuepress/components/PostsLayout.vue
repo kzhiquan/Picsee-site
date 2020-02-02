@@ -7,8 +7,10 @@
       <div class="pt-3">
         <div v-for="post in posts">
           <router-link :to="post.path" class="text-2xl pr-2">{{ post.title }}</router-link>
-          <div class="inline-block font-hairline">{{ post.frontmatter.date.substring(0,10) }}</div>
-          <div v-html="post.excerpt" class="pb-4 text-base"></div>
+          <div class="inline-block font-thin text-sm">{{ post.frontmatter.date.substring(0,10) }}</div>
+          <router-link :to="post.path">
+              <div v-html="post.excerpt" class="pb-3 text-base font-normal"></div>
+          </router-link>
         </div>
       </div>
     </div>
