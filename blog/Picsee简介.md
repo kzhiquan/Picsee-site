@@ -7,7 +7,7 @@ title: Picsee 简介
 Picsee(图目)是一个专业的图片批量编辑器，照片查看整理，截图，Markdown图床工具。一流的生产力工具，极大地提高工作效率.
 <!-- more -->
 
-![home.png](https://i.loli.net/2019/07/13/5d29ae8a49c5469900.png)
+![home.png](./images/Picsee_introduce/home.png)
 
 ## 主要功能
 - 照片整理。通过自定义标签、时间、地点、格式、任务、文件夹等快速的整理归类照片。支持拖拽移动整理照片、支持重复、大图、视频的查找筛选。
@@ -17,15 +17,16 @@ Picsee(图目)是一个专业的图片批量编辑器，照片查看整理，截
 
 ## 截图 
 ### 浏览工具条
-![view_bar.png](https://i.loli.net/2019/07/13/5d29ae8a219e637366.png)
+
+![home.png](./images/Picsee_introduce/view_bar.png)
 
 ### 编辑工具条
-![edit_bar.png](https://i.loli.net/2019/07/13/5d29ae8a0b10527565.png)
 
+![home.png](./images/Picsee_introduce/edit_bar.png)
 
 ## 下载
-[![https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E6%88%AA%E5%9B%BE/id1454805783?mt=12](https://i.loli.net/2019/07/13/5d29ae89c8a2a57254.png)](https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E6%88%AA%E5%9B%BE/id1454805783?mt=12)
 
+[![https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E6%88%AA%E5%9B%BE/id1454805783?mt=12](./images/Picsee_introduce/mac-app-store.png)](https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E6%88%AA%E5%9B%BE/id1454805783?mt=12)
 
 ## 联系
 - 详细介绍：[https://picsee.chitaner.com](https://picsee.chitaner.com)
