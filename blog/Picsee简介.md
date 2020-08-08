@@ -32,3 +32,4 @@ Picsee(图目)是一个专业的图片批量编辑器，照片查看整理，截
 - 详细介绍：[https://picsee.chitaner.com](https://picsee.chitaner.com)
 - 邮件联系：[office.chitaner@gmail.com](mailto:office.chitaner@gmail.com)
 - Telegram: [(https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)](https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)
+- QQ群：663988917
