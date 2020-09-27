@@ -7,7 +7,7 @@
       <div class="pt-3">
         <div v-for="post in posts">
           <router-link :to="post.path" class="text-2xl">{{ post.title }}</router-link>
-          <div class="pb-5 font-hairline">{{ post.frontmatter.date.substring(0,10) }}</div>
+          <div class="pb-5 font-hairline" v-if="post.frontmatter.date">{{ post.frontmatter.date.substring(0,10) }}</div>
         </div>
       </div>
     </div>

@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.24.0",
-    "tailwindcss": "^1.0.4",
-    "vuepress": "^1.0.0-rc.1"
+    "moment": "^2.29.0",
+    "tailwindcss": "^1.8.10",
+    "vuepress": "^1.6.0"
   },
   "devDependencies": {
     "vuepress-plugin-reading-time": "^0.1.1",
