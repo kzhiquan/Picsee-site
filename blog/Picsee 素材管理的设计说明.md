@@ -5,7 +5,7 @@ title: Picsee 素材管理的设计说明
 ---
 
 
-初心：构建快速、直接、可扩展、磁盘读写效率高的素材管理模式和应用。<!-- more -->
+初心：构建快速、直接、可扩展、磁盘读写效率高的素材管理模式和应用......<!-- more -->
 
 ![landscape.png](./images/Picsee_album_introduce/landscape.png)
 
