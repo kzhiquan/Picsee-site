@@ -4,7 +4,7 @@ date: 2020-08-09
 title: Picsee产品常见问题答疑
 ---
 
-打磨阶段，产品难免有不足，大家可以通过，QQ群：663988917 Telegram: [(https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)](https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)交流 ...... <!-- more --> 
+打磨阶段，产品难免有不足，大家可以通过，QQ群：663988917 ...... <!-- more --> Telegram: [(https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)](https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)交流
 
 ![landscape.png](./images/Picsee_answer/landscape.png)
 
