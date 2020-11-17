@@ -22,7 +22,7 @@ Picsee的截图主要功能有：区域截图、窗口截图、多窗口截图�
 - 并可根据需要，长截图滚动完成时，也可以再次调整竖向或横向区域大小，再实现拼接。
 - 还可截图时，按照Option键，选中窗口，对某些窗口进行长截图，自动拼接边缘区域。
 
-![snip_annotation.gif](https://i.loli.net/2020/11/06/Ouv6KapBeIVcEiJ.gif)
+![snip_long_webpage.gif](https://i.loli.net/2020/11/07/dgOzBmhaqGxMlt5.gif)
 
 ![snip_long_code.gif](https://i.loli.net/2020/11/06/iZJLMRPo8W4jx7H.gif)
 
