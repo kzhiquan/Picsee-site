@@ -4,12 +4,12 @@ date: 2020-11-21
 title: Picsee中七牛云图床配置
 ---
 
-[七牛云Kodo](https://qiniu.com)是国内的云产品，提供给已认证个人用户10GB的免费存储空间，但需要自己绑定域名，平台只提供一个月使用时间的测试的域名。.....<!-- more -->
+[七牛云Kodo](https://qiniu.com)是国内的云产品，提供给已认证个人用户10GB的免费存储空间，但需要绑定自己域名，平台只提供一个月使用时间的测试的域名。.....<!-- more -->
 
 ![配置](./images/Picsee_imageCloud_qiniu/qiniu.png)
 
 ## 配置说明
-配置前，先注册，在[官方首页](https://qiniu.com)注册成功后，登录管理控制台。
+配置前，先注册，在[官方首页](https://qiniu.com)注册成功后，登录管理控制台。获取相关配置的信息。
 
 ![register](./images/Picsee_imageCloud_qiniu/register.png)
 
