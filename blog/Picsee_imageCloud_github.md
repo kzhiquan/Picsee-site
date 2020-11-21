@@ -41,7 +41,7 @@ title: Picsee中Github图床配置
 **保存路径**：图片文件在仓库中的存储路径和名称设置。
 
 ## 效果：
-在Picsee偏好设置的导出配置中，配置为默认导出，导出图片文件后，在GitHub仓库中，会有相应的图片存储着。
+添加Github配置后，在Picsee偏好设置的导出配置中，设置为默认导出，导出图片文件后，在GitHub仓库中，可以找到相应的图片。
 
 ![result](./images/Picsee_imageCloud_GitHub/result.png)
 

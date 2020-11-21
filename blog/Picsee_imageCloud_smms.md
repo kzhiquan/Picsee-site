@@ -25,7 +25,7 @@ title: Picsee中SMMS图床配置
 ![token](./images/Picsee_imageCloud_SMMS/token.png)
 
 ## 效果：
-在Picsee偏好设置的导出配置中，配置为默认导出，导出图片文件后，在SMMM的Pictures面板中，会有相应的图片存储着。
+添加SMMS配置后，在Picsee偏好设置的导出配置中，设置为默认导出，导出图片文件后，在SMMM的Pictures面板中，可以找到相应的图片。
 
 ![result](./images/Picsee_imageCloud_SMMS/result.png)
 
