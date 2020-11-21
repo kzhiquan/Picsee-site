@@ -4,7 +4,7 @@ date: 2020-11-21
 title: Picsee中Github图床配置
 ---
 
-Github是一个代码托管平台，被挖掘出来做图床，可以免费使用，没有容量的限制，配置较简单，但在国外，速度比较慢。.....
+[Github](https://github.com)是一个代码托管平台，被挖掘出来做图床，可以免费使用，没有容量的限制，配置较简单，但在国外，速度比较慢。.....
 <!-- more -->
 
 ![配置](./images/Picsee_imageCloud_GitHub/GitHub.png)
@@ -12,7 +12,7 @@ Github是一个代码托管平台，被挖掘出来做图床，可以免费使�
 ## 配置说明
 
 ### 名称
-**名称**：可以填入任何字符，标识这个配置。
+**名称**：可以填入任何字符，唯一标识这个配置。
 
 ### 用户名
 **用户名**：Github的用户名。注册GitHub成功后的用户名称。例如我的个人主页[https://github.com/kzhiquan](https://github.com/kzhiquan), 用户名就是：**kzhiquan**。
@@ -44,7 +44,6 @@ Github是一个代码托管平台，被挖掘出来做图床，可以免费使�
 在Picsee偏好设置的导出配置中，配置为默认导出，导出图片文件后，在GitHub仓库中，会有相应的图片存储着。
 
 ![result](./images/Picsee_imageCloud_GitHub/result.png)
-
 
 ## 联系
 - 详细介绍：[https://picsee.chitaner.com](https://picsee.chitaner.com)
