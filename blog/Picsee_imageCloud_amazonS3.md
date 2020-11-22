@@ -6,7 +6,7 @@ title: Picsee中Amazon S3图床配置
 
 [Amazon S3](https://amazonaws-china.com/cn/s3/)专为从任意位置存储和检索任意数量的数据而构建的对象存储。.....<!-- more -->
 
-![amazon](./images/Picsee_imageCloud_AmazonS3/amazon.png)
+![amazon](./images/Picsee_imageCloud_AmazonS3/Amazon.png)
 
 ## 配置说明
 配置前，先注册，在[官方首页](https://amazonaws-china.com/cn/s3/)注册登录成功后，进入AWS管理控制台。获取相关的配置信息。
