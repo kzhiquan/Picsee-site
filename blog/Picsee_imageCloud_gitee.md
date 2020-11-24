@@ -15,7 +15,7 @@ title: Picsee中码云gitee图床配置
 **名称**：可以填入任何字符，唯一标识这个配置。
 
 ### 用户名
-**用户名**：gilete的用户名。注册码云gilete成功后的用户名称。例如我的个人主页[https://github.com/chitaner](https://github.com/chitaner), 用户名就是：**chitaner**。
+**用户名**：gitee的用户名。注册码云gitee成功后的用户名称。例如我的个人主页[https://gitee.com/chitaner](https://gitee.com/chitaner), 用户名就是：**chitaner**。
 
 ![profile](./images/Picsee_imageCloud_gitee/profile.png)
 
@@ -41,7 +41,7 @@ title: Picsee中码云gitee图床配置
 **保存路径**：图片文件在仓库中的存储路径和名称设置。
 
 ## 效果：
-添加码云gitee配置后，在Picsee偏好设置的导出配置中，设置为默认导出，导出图片文件后，在GitHub仓库中，可以找到相应的图片。
+添加码云gitee配置后，在Picsee偏好设置的导出配置中，设置为默认导出，导出图片文件后，在gitee仓库中，可以找到相应的图片。
 
 ![result](./images/Picsee_imageCloud_gitee/result.png)
 

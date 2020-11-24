@@ -17,7 +17,8 @@ title: Picsee 图床功能介绍
 目前，Picsee共支持9种图床，分别是:
 
 - [SMMS](https://sm.ms/)
-- [GitHub](https://github.com/settings/tokens)
+- [GitHub](https://github.com/)
+- [码云Gitee](https://gitee.com/)
 - [又拍云](https://www.upyun.com/products/file-storage)
 - [腾讯云COS](https://cloud.tencent.com/product/cos)
 - [阿里云OSS](https://cn.aliyun.com/product/oss)
@@ -58,6 +59,7 @@ title: Picsee 图床功能介绍
 
 - [SMMS](https://picsee.chitaner.com/blog/Picsee_imageCloud_smms.html)
 - [GitHub](https://picsee.chitaner.com/blog/Picsee_imageCloud_github.html)
+- [码云Gitee](https://picsee.chitaner.com/blog/Picsee_imageCloud_gitee.html)
 - [又拍云](https://picsee.chitaner.com/blog/Picsee_imageCloud_upyun.html)
 - [腾讯云COS](https://picsee.chitaner.com/blog/Picsee_imageCloud_tencent.html)
 - [阿里云OSS](https://picsee.chitaner.com/blog/Picsee_imageCloud_aliyun.html)
