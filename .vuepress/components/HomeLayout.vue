@@ -152,7 +152,7 @@
                                     <li>复制图片导出</li>
                                 </ul>
                             </li>
-                            <li class="font-bold">支持8种图床
+                            <li class="font-bold">支持11种图床
                                 <ul class="pl-5 text-sm" style="list-style-type: circle">
                                     <li>微博、七牛</li>
                                     <li>腾讯云、阿里云、又拍云</li>
