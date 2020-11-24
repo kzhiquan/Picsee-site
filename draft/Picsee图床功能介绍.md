@@ -47,3 +47,15 @@
 记录上传到图床图片链接，随时查找过往的上传记录，再次获取云端链接。
 
 ![upload_history.gif](https://i.loli.net/2020/11/20/E1iBLPN5ZV6wAoJ.gif)
+
+
+## 配置说明帮助
+- [SMMS](https://picsee.chitaner.com/blog/Picsee_imageCloud_smms.html)
+- [GitHub](https://picsee.chitaner.com/blog/Picsee_imageCloud_github.html)
+- [又拍云](https://picsee.chitaner.com/blog/Picsee_imageCloud_upyun.html)
+- [腾讯云COS](https://picsee.chitaner.com/blog/Picsee_imageCloud_tencent.html)
+- [阿里云OSS](https://picsee.chitaner.com/blog/Picsee_imageCloud_aliyun.html)
+- [七牛云](https://picsee.chitaner.com/blog/Picsee_imageCloud_qiniu.html)
+- [Amazon S3](https://picsee.chitaner.com/blog/Picsee_imageCloud_amazonS3.html)
+- [Imgur](https://picsee.chitaner.com/blog/Picsee_imageCloud_imgur.html)
+- [Flickr](https://picsee.chitaner.com/blog/Picsee_imageCloud_flickr.html)
