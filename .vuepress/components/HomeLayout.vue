@@ -157,6 +157,7 @@
                                     <li>微博、七牛</li>
                                     <li>腾讯云、阿里云、又拍云</li>
                                     <li>Imgur、Flickr、Amazon S3</li>
+                                    <li>Github、SM.MS、码云Gitee</li>
                                 </ul>
                             </li>
                             <li>支持导出图床历史的查看和管理</li>
