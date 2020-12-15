@@ -4,8 +4,21 @@ layout: Post
 # 版本历史
 
 
-## v1.2.1 (正在开发特性)
+## v1.2.3 (正在开发特性)
 - 看大图鼠标滚轮操作的优化
+
+
+## v1.2.2 (2020.12.15)
+- 适配 macOS11 big sur
+- 适配 MacBook apple silicon 机型
+- 新增 gitee 图床支持
+- 新增 svg、ai、eps、pdf 格式支持
+- 新增 doc、xls、ppt、docx、xlsx、pptx 格式支持
+- 新增 pages、numbers、keynote格式支持
+- 新增相册面板中图片缩略图鼠标悬停效果
+- 新增新增图床帮助页面
+- 修复SM.MS图床上传gif格式问题
+- 优化相册面板中全选图片操作速度
 
 
 ## v1.2.0 (2020.11.17)
