@@ -1,11 +1,11 @@
 ---
 layout: BlogPost
-date: 2021-01-01
+date: 2021-01-03
 title: Mac平台下Picsee、Xnip、iShot长截图功能比较
 ---
 
 
-长截图，即滚动截图，是指一个页面区域，当前屏幕范围容纳不下需要截取的内容，需要滚动该页面区域，截取不同的内容，进行拼接获取完整页面内容的操作，......<!-- more -->例如浏览的网页，聊天内容常常需要长截图。
+长截图，即滚动截图，是指一个页面区域，当前屏幕范围容纳不下需要截取的内容，需要滚动该页面区域，截取不同的内容，进行拼接获取完整页面内容的操作，例如浏览的网页，聊天内容常常需要长截图。......<!-- more -->
 
 ![imageUnion.png](./images/Picsee_longSnip_compare2other/image_union.png)
 
@@ -92,7 +92,7 @@ iShot和Xnip在滚动开始后，不再支持框选区域的竖向调整，而Pi
 #### 窗口选择滚动
 Picsee支持点选整个窗口进行滚动拼接长截图，相对于长截图后，进行了窗口的套壳，结合现在M1机器上能够直接跑iOS应用，这个特性非常的有意思。而Xnip和iShot，没有这一特性，都需要仔细完整的框选整个窗口的滚动截图区域。Picsee在测试过程中发现问题,点选有些窗口不能进行滚动截图，不知是什么原因。
 
-![window_longSnip](./images/Picsee_longSnip_compare2other/window_longSnip.gif)
+![window_longSnip](https://i.loli.net/2021/01/03/x3BDdGCAfqyIO1Z.gif)
 
 ### 其他
 #### 浏览器插件
@@ -108,7 +108,7 @@ Picsee支持横向滚动的长截图。
 #### 全景截图
 Picsee支持全景360拼接图片。
 
-![360_longSnip](./images/Picsee_longSnip_compare2other/360_longSnip.gif)
+![360_longSnip](https://i.loli.net/2021/01/03/ldcRHZCF6jKhp7V.gif)
 
 ### 说明
 这其实是Picsee的一篇安利文章，我就是Picsee的作者，希望尽量站在客观的角度，测评Mac平台上各软件的长截图功能，一方面，能让用户了解Picsee长截图的各项特性，提升日常使用中的长截图效率，另一方面，与竞品比较，了解Picsee的不足，进行相关的改进，提升用户使用的满意度。
