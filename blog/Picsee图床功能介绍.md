@@ -14,7 +14,7 @@ title: Picsee 图床功能介绍
 ![mark_share](./images/Picsee_imageCloud/mark_share.gif)
 
 ## 图床云服务支持
-目前，Picsee共支持9种图床，分别是:
+目前，Picsee共支持10种图床，分别是:
 
 - [SMMS](https://sm.ms/)
 - [GitHub](https://github.com/)
