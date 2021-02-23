@@ -12,7 +12,7 @@
                             <img :src="$withBase('/product-logo.png')" alt="product logo">
                             <div class="pl-3 lg:pl-8">
                                 <div class="text-white text-xl lg:text-4xl">Picsee - 看图 & 截图 for MacOS</div>
-                                <div class="text-white text-sm lg:text-lg pt-3">专业的图片批量编辑器、照片整理、Markdown图床工具</div>
+                                <div class="text-white text-sm lg:text-lg pt-3">专业的图片批量编辑器、照片整理、素材管理、Markdown图床工具</div>
                                 <a target="_blank" href="https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E6%88%AA%E5%9B%BE/id1454805783?mt=12">
                                     <img class="pt-4" :src="$withBase('/mac-app-store.png')" alt="mac app store">
                                 </a>
