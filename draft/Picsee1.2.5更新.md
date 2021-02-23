@@ -1,7 +1,7 @@
 
 强大的素材管理工具Picsee1.2.5更新，现免费下载。
 
-## v1.2.5 (2020.02.21)
+## v1.2.5 (2021.02.21)
 - 支持自定义堆栈背景颜色
 - 支持相册左侧栏导航条目可定制
 - 支持相册左右侧栏宽度调整记忆
@@ -35,8 +35,6 @@
 
 ## B站UP主讲解视屏
 在这非常感谢[B站UP主韭菜煎蛋](https://space.bilibili.com/37440705/), 制作讲解的Picsee素材整理的相关功能，大家可以点击[链接](https://www.bilibili.com/video/BV1LU4y1x7n1)观看。
-
-<iframe src="//player.bilibili.com/player.html?aid=671526355&bvid=BV1LU4y1x7n1&cid=297415545&page=1" scrolling="no" border="0" frameborder="no" width = 600 height = 352 framespacing="0" allowfullscreen="true"> </iframe>
 
 ## 下载
 [下载](https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E6%88%AA%E5%9B%BE/id1454805783?mt=12)
