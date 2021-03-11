@@ -14,4 +14,3 @@
 - 在查找结果集中，删除重复的照片
 
 ![similarity](https://i.loli.net/2021/02/23/kNcG2DOj6rLIFAl.gif)
-

@@ -178,7 +178,7 @@
                         <ul class="list-disc text-base text-gray-700 pl-10 pt-3">
                             <li>支持拖拽移动图片、文件夹，有效率的归类管理图片</li>
                             <li>支持开机自启动；截图、导出、编辑等快捷键的设置</li>
-                            <li>支持bmp、dds、exr、gif、pic、ico、jpeg、jpeg2000、pbm、pict、png、psd、sgi、tga、tiff、cr2、dng、heic、heif、jp2、nef、nrw、orf、pef、raf、rw2、webp、svg、ai、eps、pdf、doc、xls、ppt、docx、xlsx、pptx、pages、numbers、keynote、folder等格式，以及各种RAW格式图片的查看处理</li>
+                            <li>支持bmp、dds、exr、gif、pic、ico、jpeg、jpeg2000、pbm、pict、png、psd、sgi、tga、tiff、cr2、cr3、dng、heic、heif、jp2、nef、nrw、orf、pef、raf、rw2、webp、svg、ai、eps、pdf、doc、xls、ppt、docx、xlsx、pptx、pages、numbers、keynote、folder等格式，以及各种RAW格式图片的查看处理</li>
                         </ul>
                     </div>
                 </div>
