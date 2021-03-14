@@ -9,4 +9,5 @@ layout: Post
 ## 联系信息
 - 邮件：[office.chitaner@gmail.com](mailto:office.chitaner@gmail.com)
 - 微博：[@Picsee](http://weibo.com/picsee)
+- Twitter：[Twitter @chitanerk](https://twitter.com/chitanerk)
 - QQ群：663988917
