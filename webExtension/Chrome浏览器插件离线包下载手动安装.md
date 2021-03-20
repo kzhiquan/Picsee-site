@@ -8,7 +8,7 @@ title: Chrome浏览器插件离线包下载——手动安装
 目前，未上架谷歌插件商店，但提供离线包下载，可手动安装。本篇，介绍下，下载安装流程 ......<!-- more -->
 
 ## 下载
-点击**‌[离线包](./images/chrome_offline_package_install/PicseeBrowserExt-1.0.0.zip)**, 下载zip文件，下载完成后，解压文件。
+点击**‌离线包[PicseeBrowserExt-1.0.1](./images/chrome_offline_package_install/PicseeBrowserExt-1.0.1.zip)**, 下载zip文件，下载完成后，解压文件。
 
 
 ## 安装说明
