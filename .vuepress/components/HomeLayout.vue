@@ -3,56 +3,9 @@
     <Nav/>
     <div class="w-full pb-24">
       <div class="">
-        <!-- product name -->
-        <div style="background-Color: #222222">
-            <div class="lg:max-w-5xl mx-auto">
-                <div class="flex justify-center items-center" style="height: 21rem">
-                    <div class="px-10 lg:px-0">
-                        <div class="flex items-center">
-                            <img :src="$withBase('/product-logo.png')" alt="product logo">
-                            <div class="pl-3 lg:pl-8">
-                                <div class="text-white text-xl lg:text-4xl">Picsee - 看图 & 截图 for MacOS</div>
-                                <div class="text-white text-sm lg:text-lg pt-3">专业的图片批量编辑器、照片整理、素材管理、Markdown图床工具</div>
-                                <a target="_blank" href="https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E6%88%AA%E5%9B%BE/id1454805783?mt=12">
-                                    <img class="pt-4" :src="$withBase('/mac-app-store.png')" alt="mac app store">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- product func breif -->
-        <div class="" style="">
-            <div class="lg:max-w-5xl mx-auto">
-                <div class="flex flex-col lg:flex-row justify-between items-center px-10 py-6">
-                    <div class="flex justify-between lg:pr-8">
-                        <router-link :to="{hash:'#photo_clearup'}" @click.native="anchorHashCheck" class="flex flex-col items-center pr-2 lg:pr-8">
-                            <img style="width: 42px" class="pt-3" :src="$withBase('/img_clearup.png')" alt="clear up">
-                            <div class="text-lg py-3">照片整理</div>
-                            <div class="text-base text-gray-600 text-center">通过标签、时间、地点、格式、任务、文件夹等快速的整理归类照片。</div>
-                        </router-link>
-                        <router-link :to="{hash: '#photo_snip'}" @click.native="anchorHashCheck" class="flex flex-col items-center">
-                            <img style="width: 40px" class="pt-3" :src="$withBase('/img_snip.png')" alt="snip">
-                            <div class="text-lg py-3">屏幕截图</div>
-                            <div class="text-base text-gray-600 text-center">快速截图、标注、添加箭头，马赛克、滚动截图，进行分享，提高工作效率。</div>
-                        </router-link>
-                    </div>
-                    <div class="flex justify-between items-center">
-                        <router-link :to="{hash: '#photo_edit'}" @click.native="anchorHashCheck" class="flex flex-col items-center pr-2 lg:pr-8">
-                            <img style="width: 36px" class="pt-3" :src="$withBase('/img_edit.png')" alt="edit">
-                            <div class="text-lg py-3">图片编辑</div>
-                            <div class="text-base text-gray-600 text-center">修改尺寸、GPS、拍摄时间，进行裁剪、加外壳、水印，批量编辑导出，一流的生产力工具。</div>
-                        </router-link>
-                        <router-link :to="{hash: '#photo_bed'}" @click.native="anchorHashCheck" class="flex flex-col items-center">
-                            <img style="width: 46.3px" class="pt-3" :src="$withBase('/img_bed.png')" alt="bed">
-                            <div class="text-lg pt-5 pb-3">图床分享</div>
-                            <div class="text-base text-gray-600 text-center">自动上传图片、保存Markdown链接，给你前所未有的插图体验，名副其实的图床神器。</div>
-                        </router-link>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <ProductHeader/>
+        <ProductBriefFunc/>
+        <ProductCarousel/>
         <!-- photo clear up -->
         <div class="" id="photo_clearup">
             <div class="lg:max-w-5xl mx-auto">
@@ -168,22 +121,7 @@
                 </div>
             </div>
         </div>
-        <!-- more feature -->
-        <div class="">
-            <div class="lg:max-w-5xl mx-auto">
-                <div class="border-solid border-t"></div>
-                <div class="flex">
-                    <div class="py-8 pl-4">
-                        <div class="text-2xl">更多特性</div>
-                        <ul class="list-disc text-base text-gray-700 pl-10 pt-3">
-                            <li>支持拖拽移动图片、文件夹，有效率的归类管理图片</li>
-                            <li>支持开机自启动；截图、导出、编辑等快捷键的设置</li>
-                            <li>支持bmp、dds、exr、gif、pic、ico、jpeg、jpeg2000、pbm、pict、png、psd、sgi、tga、tiff、cr2、cr3、dng、heic、heif、jp2、nef、nrw、orf、pef、raf、rw2、webp、svg、ai、eps、pdf、doc、xls、ppt、docx、xlsx、pptx、pages、numbers、keynote、folder等格式，以及各种RAW格式图片的查看处理</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <ProductMoreFeature/>
       </div>
     </div>
     <Footer/>
@@ -191,10 +129,16 @@
 </template>
 
 <script>
+
 import Nav from "./Nav";
 import Footer from "./Footer";
+import ProductHeader from "./ProductHeader"
+import ProductBriefFunc from "./ProductBriefFunc"
+import ProductCarousel from "./ProductCarousel"
+import ProductMoreFeature from "./ProductMoreFeature"
+
 export default {
-  components: { Nav, Footer },
+  components: { Nav, Footer, ProductHeader, ProductBriefFunc, ProductCarousel, ProductMoreFeature },
   name: "Layout",
   methods: {
     anchorHashCheck() {
