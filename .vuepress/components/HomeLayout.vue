@@ -6,6 +6,7 @@
         <ProductHeader/>
         <ProductBriefFunc/>
         <ProductCarousel/>
+        <ProductFeatureDetailR/>
         <!-- photo clear up -->
         <div class="" id="photo_clearup">
             <div class="lg:max-w-5xl mx-auto">
@@ -136,9 +137,10 @@ import ProductHeader from "./ProductHeader"
 import ProductBriefFunc from "./ProductBriefFunc"
 import ProductCarousel from "./ProductCarousel"
 import ProductMoreFeature from "./ProductMoreFeature"
+import ProductFeatureDetailR from "./ProductFeatureDetailR"
 
 export default {
-  components: { Nav, Footer, ProductHeader, ProductBriefFunc, ProductCarousel, ProductMoreFeature },
+  components: { Nav, Footer, ProductHeader, ProductBriefFunc, ProductCarousel, ProductMoreFeature, ProductFeatureDetailR },
   name: "Layout",
   methods: {
     anchorHashCheck() {
