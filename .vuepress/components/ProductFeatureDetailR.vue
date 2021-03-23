@@ -1,5 +1,5 @@
 <template>
-<div class="lg:max-w-5xl mx-auto" style="">
+<div class="lg:max-w-5xl mx-auto">
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -18,7 +18,7 @@
             <div class="mt-4">
                 <dl class="space-y-6 md:space-y-0 md:grid md:grid-cols-1 md:gap-x-8 md:gap-y-4">
 
-                    <div class="relative" v-on:click="gotoSlide(0)">
+                    <div class="relative" v-on:click="gotoSlide(0)" v-bind:class="{'bg-blue-100 rounded':isSelected(0)}">
                         <dt>
                             <div class="absolute flex items-center justify-center h-12 w-12">
                                 <img :src="$withBase('/collect_chrome.png')" alt="rename">
@@ -30,7 +30,7 @@
                         </dd>
                     </div>
                     
-                    <div class="relative" v-on:click="gotoSlide(1)">
+                    <div class="relative" v-on:click="gotoSlide(1)" v-bind:class="{'bg-blue-100 rounded':isSelected(1)}">
                         <dt>
                             <div class="absolute flex items-center justify-center h-12 w-12">
                                 <img :src="$withBase('/collect_screenshot.png')" alt="rename">
@@ -42,7 +42,7 @@
                         </dd>
                     </div>
 
-                    <div class="relative">
+                    <div class="relative" v-on:click="gotoSlide(2)" v-bind:class="{'bg-blue-100 rounded':isSelected(2)}">
                         <dt>
                             <div class="absolute flex items-center justify-center h-12 w-12">
                                 <img :src="$withBase('/collect_drag.png')" alt="rename">
@@ -54,7 +54,7 @@
                         </dd>
                     </div>
 
-                    <div class="relative">
+                    <div class="relative" v-on:click="gotoSlide(3)" v-bind:class="{'bg-blue-100 rounded':isSelected(3)}">
                         <dt>
                             <div class="absolute flex items-center justify-center h-12 w-12">
                                 <img :src="$withBase('/collect_import.png')" alt="rename">
@@ -73,15 +73,19 @@
 
         </div>
 
-        <div class="md:col-span-5 flex items-center" style="background-color: #fefbd8;">
-            <carousel ref="carousel" :per-page="1" :center-mode="true" :pagination-enabled="false">
+        <div class="mt-6 md:col-span-5" v-bind:class="{'flex items-center': isLoad}" style="background-color: #fefbd8;">
+            <carousel ref="carousel" :per-page="1" :pagination-enabled="false" v-bind:navigateTo="slideNum">
                 <slide class="flex justify-center">
-                    <!--<img :src="$withBase('/collect_thumb_1.png')" alt="product_thumb_1">-->
-                    abc
+                    <img :src="$withBase('/collect_thumb_1.png')" alt="product_thumb_1">
                 </slide>
                 <slide class="flex justify-center">
-                    ede
-                    <!--<img :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2">-->
+                    <img :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2">
+                </slide>
+                <slide class="flex justify-center">
+                    2
+                </slide>
+                <slide class="flex justify-center">
+                    3
                 </slide>
             </carousel>
         </div>
@@ -100,11 +104,24 @@ import { Carousel, Slide } from 'vue-carousel';
 
 export default {
     components: { Carousel, Slide },
+    data: function () {
+        return {
+            slideNum: [0,false],
+            isLoad: false,
+        }
+    },
     methods: {
         gotoSlide(num) {
-            console.log("num:", num)
-            this.$refs.carousel.value = num
+            this.slideNum = [num, false]
+        },
+        isSelected(num) {
+            return this.slideNum[0] == num
         }
+    },
+    mounted: function() {
+        this.$nextTick(function () {
+            this.isLoad = true
+        })
     }
 };
 
