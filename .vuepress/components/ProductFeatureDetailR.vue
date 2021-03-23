@@ -82,10 +82,10 @@
                     <img :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2">
                 </slide>
                 <slide class="flex justify-center">
-                    2
+                    <img :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2">
                 </slide>
                 <slide class="flex justify-center">
-                    3
+                    <img :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2">
                 </slide>
             </carousel>
         </div>
