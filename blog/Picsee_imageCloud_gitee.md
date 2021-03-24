@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中码云gitee图床配置
+tags: ["图床"]
 ---
 
 [码云gitee](https://gitee.com)是国内的代码托管平台，被挖掘出来做图床，可以免费使用，没有容量的限制，配置较简单，速度也比较快，但请不要滥用。.....

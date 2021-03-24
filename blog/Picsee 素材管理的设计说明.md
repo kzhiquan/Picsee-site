@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2020-08-09
 title: Picsee 素材管理的设计说明
+tags: ["素材管理"]
 ---
 
 

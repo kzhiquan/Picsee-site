@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中Flickr图床配置
+tags: ["图床"]
 ---
 
 [Flickr](https://flickr.com)可以免费使用，不需要自己绑定域名，但是在国外，国内直接访问不了。.....

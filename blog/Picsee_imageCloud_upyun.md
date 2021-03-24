@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中又拍云图床配置
+tags: ["图床"]
 ---
 
 [又拍云USS](https://upyunm.com)，也需要绑定自己的域名，平台只提供测试域名。<!-- more -->

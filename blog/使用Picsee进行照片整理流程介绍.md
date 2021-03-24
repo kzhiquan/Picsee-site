@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2020-10-08
 title: 使用Picsee进行照片整理流程介绍
+tags: ["素材管理"]
 ---
 
 

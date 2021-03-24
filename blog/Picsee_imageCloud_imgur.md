@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中Imgur图床配置
+tags: ["图床"]
 ---
 
 [Imgur](https://imgur.com)可以免费使用，不需要自己绑定域名，但是在国外，国内访问速度较慢，有时访问不了。.....

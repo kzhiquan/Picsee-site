@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中腾讯云图床配置
+tags: ["图床"]
 ---
 
 [腾讯云COS](https://cloud.tencent.com/product/cos)安全稳定、便捷易用、低成本的海量云端存储服务。.....<!-- more -->

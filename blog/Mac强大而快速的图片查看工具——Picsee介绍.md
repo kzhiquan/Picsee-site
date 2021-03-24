@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2021-02-23
 title: Mac强大而快速的图片查看工具——Picsee介绍
+tags: ["看图"]
 ---
 
 操作便捷、反应迅速、支持格式众多的图片查看器。<!-- more -->

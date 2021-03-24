@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中Amazon S3图床配置
+tags: ["图床"]
 ---
 
 [Amazon S3](https://amazonaws-china.com/cn/s3/)专为从任意位置存储和检索任意数量的数据而构建的对象存储。.....<!-- more -->

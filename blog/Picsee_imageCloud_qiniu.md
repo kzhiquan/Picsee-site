@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中七牛云图床配置
+tags: ["图床"]
 ---
 
 [七牛云Kodo](https://qiniu.com)是国内的云产品，提供给已认证个人用户10GB的免费存储空间，但需要绑定自己域名，平台只提供一个月使用时间的测试的域名。.....<!-- more -->

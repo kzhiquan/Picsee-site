@@ -1,7 +1,8 @@
 ---
 layout: BlogPost
 date: 2020-11-19
-title: Picsee 图床功能介绍
+title: Picsee 图床功能介绍、
+tags: ["图床"]
 ---
 
 图床是Picsee延伸出来的功能，跟截图一样，使素材收集、整理、查看、分享的过程，更加流畅和完美。.....

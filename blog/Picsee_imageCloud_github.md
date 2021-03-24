@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中Github图床配置
+tags: ["图床"]
 ---
 
 [Github](https://github.com)是一个代码托管平台，被挖掘出来做图床，可以免费使用，没有容量的限制，配置较简单，但在国外，速度比较慢。.....

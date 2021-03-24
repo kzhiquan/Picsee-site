@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中SMMS图床配置
+tags: ["图床"]
 ---
 
 [SMMS](https://sm.ms)图床，分注册版和非注册版（匿名版），匿名版可以免费使用，但是分享的图片有可能被删除，Picsee的默认导出图床就是SMMS的匿名版，无需配置，就可以使用。.....<!-- more -->注册版，需要先注册用户，免费使用，有容量限制，是5GB。详细的价格可参照[https://sm.ms/pricing](https://sm.ms/pricing).下面介绍其在Picsee中的配置。

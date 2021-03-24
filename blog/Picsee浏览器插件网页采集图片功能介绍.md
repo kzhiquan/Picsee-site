@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2020-10-06
 title: Picsee 浏览器插件网页采集图片功能介绍
+tags: ["浏览器插件"]
 ---
 
 

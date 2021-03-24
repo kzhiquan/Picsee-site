@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2021-01-03
 title: Mac平台下Picsee、Xnip、iShot长截图功能比较
+tags: ["截图"]
 ---
 
 

@@ -2,6 +2,7 @@
 layout: BlogPost
 date: 2018-11-22
 title: Picsee中阿里云图床配置
+tags: ["图床"]
 ---
 
 [阿里云OSS](https://cn.aliyun.com)速度快，但是费用不低。.....<!-- more -->
