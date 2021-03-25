@@ -73,21 +73,28 @@
 
         </div>
 
-        <div class="mt-6 md:col-span-5" v-bind:class="{'flex items-center': isLoad}" style="background-color: #fefbd8;">
-            <carousel ref="carousel" :per-page="1" :pagination-enabled="false" v-bind:navigateTo="slideNum">
-                <slide class="flex justify-center">
-                    <img :src="$withBase('/collect_thumb_1.png')" alt="product_thumb_1">
-                </slide>
-                <slide class="flex justify-center">
-                    <img :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2">
-                </slide>
-                <slide class="flex justify-center">
-                    <img :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2">
-                </slide>
-                <slide class="flex justify-center">
-                    <img :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2">
-                </slide>
-            </carousel>
+        <div class="mt-6 md:mt-20 md:col-span-5">
+              <carousel
+                ref="carousel"
+                class="carousel"
+                :per-page="1"
+                :center-mode="true" 
+                :pagination-enabled="false" 
+                v-bind:navigateTo="slideNum">
+                    <slide class="flex justify-center">
+                        <!--<VLazyImageComponent :src="$withBase('/collect_thumb_1.png')" alt="product_thumb_1" /> -->
+                        <VLazyImageComponent :src-placeholder="$withBase('/product_thumb_s_1.png')" alt="product_thumb_1" />
+                    </slide>
+                    <slide class="flex justify-center">
+                        <VLazyImageComponent :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2" />
+                    </slide>
+                    <slide class="flex justify-center">
+                        <VLazyImageComponent :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2" />
+                    </slide>
+                    <slide class="flex justify-center">
+                        <VLazyImageComponent :src="$withBase('/collect_thumb_2.png')" alt="product_thumb_2" />
+                    </slide>
+              </carousel>
         </div>
 
     </div>
@@ -101,13 +108,15 @@
 <script>
 
 import { Carousel, Slide } from 'vue-carousel';
+import VLazyImageComponent from 'v-lazy-image';
 
 export default {
-    components: { Carousel, Slide },
+    components: { Carousel, Slide, VLazyImageComponent},
     data: function () {
         return {
             slideNum: [0,false],
             isLoad: false,
+            isLoadC: false
         }
     },
     methods: {
@@ -120,7 +129,8 @@ export default {
     },
     mounted: function() {
         this.$nextTick(function () {
-            this.isLoad = true
+            var that = this
+            setTimeout(function(){that.isLoad = true;}, 1)
         })
     }
 };

@@ -1,4 +1,5 @@
 import VueCarousel from 'vue-carousel';
+import VLazyImagePlugin from 'v-lazy-image';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -7,4 +8,5 @@ export default ({
   siteData // site metadata
 }) => {
   Vue.use(VueCarousel);
+  Vue.use(VLazyImagePlugin);
 }

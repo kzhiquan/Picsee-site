@@ -1,11 +1,11 @@
 <template>
   <div class="lg:max-w-5xl mx-auto">
-    <carousel class="customCarousel" :per-page="1" :center-mode="true" paginationPosition="bottom-overlay" :pagination-padding="0" >
+    <carousel class="carousel" :per-page="1" :center-mode="true" paginationPosition="bottom-overlay" :pagination-padding="0" >
       <slide class="flex justify-center">
-        <img :src="$withBase('/product_thumb_1.png')" alt="product_thumb_1">
+        <VLazyImageComponent :src-placeholder="$withBase('/product_thumb_s_1.png')" alt="product_thumb_1" />
       </slide>
       <slide class="flex justify-center">
-        <img :src="$withBase('/product_thumb_2.png')" alt="product_thumb_2">
+        <VLazyImageComponent :src="$withBase('/product_thumb_2.png')" alt="product_thumb_1" />
       </slide>
     </carousel>
   </div>
@@ -15,10 +15,12 @@
 <script>
 
 import { Carousel, Slide } from 'vue-carousel';
+import VLazyImageComponent from 'v-lazy-image';
 
 export default {
-  components: { Carousel, Slide },
+  components: { Carousel, Slide, VLazyImageComponent },
 };
+
 </script>
 
 
@@ -26,9 +28,10 @@ export default {
 
 @import '../styles-1/custom.styl';
 
-.customCarousel {
+.carousel {
   ::v-deep .VueCarousel-pagination button {
     margin-left: 16px;
   }
 }
+
 </style>

@@ -17,6 +17,7 @@
   "dependencies": {
     "moment": "^2.29.1",
     "tailwindcss": "^1.9.6",
+    "v-lazy-image": "^1.4.0",
     "vue-carousel": "^0.18.0",
     "vuepress": "^1.8.2"
   },
