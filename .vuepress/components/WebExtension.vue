@@ -5,7 +5,8 @@
       <div class="text-4xl font-bold pt-12">浏览器插件</div>
       <div class="border-solid border-t mb-3"></div>
       <div class="pt-3">
-        <div v-for="post in posts">
+        <div 
+          v-for="post in posts">
           <router-link :to="post.path" class="text-2xl pr-2">{{ post.title }}</router-link>
           <div class="inline-block font-thin text-sm" v-if="post.frontmatter.date">{{ post.frontmatter.date.substring(0,10) }}</div>
           <router-link :to="post.path">
