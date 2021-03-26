@@ -33,7 +33,7 @@
 
         </div>
 
-        <div class="mt-6 md:mt-20 md:col-span-5" style="background-color: coral;">
+        <div class="mt-6 md:mt-20 md:col-span-5">
               <carousel
                 ref="carousel"
                 class="carousel"
@@ -54,7 +54,7 @@
 
     <div v-if="position === 'Right' " class="md:grid md:grid-cols-8 md:gap-4">
 
-        <div class="mt-6 md:mt-20 md:col-span-5" style="background-color: coral;">
+        <div class="mt-6 md:mt-20 md:col-span-5">
               <carousel
                 ref="carousel"
                 class="carousel"

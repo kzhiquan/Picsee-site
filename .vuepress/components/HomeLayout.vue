@@ -19,8 +19,10 @@
             class="mt-16"
         />
 
-        <ProductMoreFeature class="mt-16" />
-
+        <ProductMoreFeature 
+            v-bind:title="moreFeatures.title"
+            v-bind:items="moreFeatures.items"
+            class="mt-16" />
       </div>
     </div>
     <Footer/>
@@ -180,9 +182,38 @@ export default {
                         }
                     ]
                 }
-            ]
+            ],
+
+            moreFeatures: {
+                title: '更多特性',
+                items: [
+                    {
+                        title: '批量重命名',
+                        thumb: '/feature_rename.png', 
+                        description: '支持根据尺寸、时间、光圈、焦距、镜头等属性，批量重命名。'
+                    },
+                    {
+                        title: '寻找相似图片',
+                        thumb: '/feature_similarity.png', 
+                        description: '根据图片布局、纹理布局的相似度，寻找相近的图片。查看详情'
+                    },
+                    {
+                        title: '支持众多格式',
+                        thumb: '/feature_knife.png',
+                        description: '支持像素、矢量、RAW图片、视频、文档等50多种格式的预览或管理。查看详情。'
+                    },
+
+                    {
+                        title: '支持众多格式',
+                        thumb: '/feature_knife.png',
+                        description: '支持像素、矢量、RAW图片、视频、文档等50多种格式的预览或管理。查看详情。'
+                    }
+
+                ]
+            }
         }
     },
+    
     methods: {
         anchorHashCheck() {
             if (window.location.hash === this.$route.hash) {
@@ -193,6 +224,7 @@ export default {
             }
         },
     },
+
     mounted() {
         this.anchorHashCheck()
     },
