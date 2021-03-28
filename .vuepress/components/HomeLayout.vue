@@ -89,7 +89,7 @@ export default {
                 { 
                     title: '整理标记', 
                     description: '针对繁杂而庞多的素材，Picsee通过多种分类方法，归并整理后，井井有条。', 
-                    position: 'Right',
+                    position: 'Left',
                     routerHash: 'home_tidy',
                     features: [
                         { 
@@ -169,7 +169,7 @@ export default {
                 { 
                     title: '分享协同', 
                     description: '图床分享素材链接，简单高效，云盘、iCloud同步素材，跨设备协作。', 
-                    position: 'Right',
+                    position: 'Left',
                     routerHash: 'home_share',
                     features: [
                         { 

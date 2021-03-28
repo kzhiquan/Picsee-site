@@ -2,10 +2,10 @@
   <div class="flex flex-col min-h-screen">
     <Nav/>
     <div style="max-width: 740px;margin: 0 auto;" class="py-8 px-6 pb-24 flex-grow content">
-      <div class="flex justify-start">
+      <div class="flex flex-wrap content-start justify-start">
         <button class="border-2 py-0.5 px-1 rounded text-xs" :class="{'bg-purple-500 text-white border-transparent': isSelected('')}" v-on:click="clickTag('')">全部</button>
         <button v-for="tag in tags" 
-                class="ml-2 border-2 py-0.5 px-1 rounded text-xs" 
+                class="border-2 py-0.5 px-1 rounded text-xs" 
                 :class="{'bg-purple-500 text-white border-transparent': isSelected(tag)}" 
                 v-on:click="clickTag(tag)">
                 {{tag}}

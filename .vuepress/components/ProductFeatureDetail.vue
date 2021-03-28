@@ -43,10 +43,9 @@
                 :pagination-enabled="false" 
                 v-bind:navigateTo="slideNum">
                     <slide 
-                        v-for="feature in features"
-                        class="flex justify-center">
-                        <VLazyImageComponent v-if="!feature.showPlaceHolder" :src="$withBase(feature.show)" alt="feature show" />
-                        <VLazyImageComponent v-if="feature.showPlaceHolder" :src="$withBase(feature.show)" :src-placeholder="$withBase(feature.showPlaceHolder)" alt="feature show" />
+                        v-for="feature in features">
+                        <VLazyImageComponent class="mx-auto" v-if="!feature.showPlaceHolder" :src="$withBase(feature.show)" alt="feature show" />
+                        <VLazyImageComponent class="mx-auto" v-if="feature.showPlaceHolder" :src="$withBase(feature.show)" :src-placeholder="$withBase(feature.showPlaceHolder)" alt="feature show" />
                     </slide>
               </carousel>
             </ClientOnly>
@@ -66,10 +65,9 @@
                 :pagination-enabled="false" 
                 v-bind:navigateTo="slideNum">
                     <slide 
-                        v-for="feature in features"
-                        class="flex justify-center">
-                        <VLazyImageComponent v-if="!feature.showPlaceHolder" :src="$withBase(feature.show)" alt="feature show" />
-                        <VLazyImageComponent v-if="feature.showPlaceHolder" :src="$withBase(feature.show)" :src-placeholder="$withBase(feature.showPlaceHolder)" alt="feature show" />
+                        v-for="feature in features">
+                        <VLazyImageComponent class="mx-auto" v-if="!feature.showPlaceHolder" :src="$withBase(feature.show)" alt="feature show" />
+                        <VLazyImageComponent class="mx-auto" v-if="feature.showPlaceHolder" :src="$withBase(feature.show)" :src-placeholder="$withBase(feature.showPlaceHolder)" alt="feature show" />
                     </slide>
               </carousel>
             </ClientOnly>

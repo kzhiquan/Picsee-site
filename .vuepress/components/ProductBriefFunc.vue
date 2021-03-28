@@ -23,7 +23,7 @@
                 <router-link :to="{hash: '#home_share'}" @click.native="anchorHashCheck" class="flex flex-col items-center">
                     <img style="height: 42px" class="pt-3" :src="$withBase('/featureHeader/func_cloud.png')" alt="bed">
                     <div class="text-lg pt-5 pb-3">分享协同</div>
-                    <div class="text-base text-gray-700 text-center">通过图床、iCloud、云盘支持图片素材分享和多机协同工作，无处不在。</div>
+                    <div class="text-base text-gray-700 text-center">通过图床、iCloud、云盘支持图片素材分享和多机协同。</div>
                 </router-link>
             </div>
         </div>

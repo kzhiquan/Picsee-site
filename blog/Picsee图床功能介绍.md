@@ -1,7 +1,7 @@
 ---
 layout: BlogPost
 date: 2020-11-19
-title: Picsee 图床功能介绍、
+title: Picsee 图床功能介绍
 tags: ["图床"]
 ---
 
