@@ -3,34 +3,34 @@
     <ClientOnly>
       <carousel class="carousel" :per-page="1" :center-mode="true" paginationPosition="bottom-overlay" :pagination-padding="0" >
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_1.png')" :src-placeholder="$withBase('/product_carousel_s_1.jpg')" alt="product_carousel_1" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_1.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_1.jpg')" alt="product_carousel_1" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_2.png')" :src-placeholder="$withBase('/product_carousel_s_2.jpg')" alt="product_carousel_2" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_2.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_2.jpg')" alt="product_carousel_2" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_3.png')" :src-placeholder="$withBase('/product_carousel_s_3.jpg')" alt="product_carousel_3" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_3.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_3.jpg')" alt="product_carousel_3" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_4.png')" :src-placeholder="$withBase('/product_carousel_s_4.jpg')" alt="product_carousel_4" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_4.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_4.jpg')" alt="product_carousel_4" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_5.png')" :src-placeholder="$withBase('/product_carousel_s_5.jpg')" alt="product_carousel_5" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_5.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_5.jpg')" alt="product_carousel_5" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_6.png')" :src-placeholder="$withBase('/product_carousel_s_6.jpg')" alt="product_carousel_6" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_6.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_6.jpg')" alt="product_carousel_6" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_7.png')" :src-placeholder="$withBase('/product_carousel_s_7.jpg')" alt="product_carousel_7" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_7.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_7.jpg')" alt="product_carousel_7" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_8.png')" :src-placeholder="$withBase('/product_carousel_s_8.jpg')" alt="product_carousel_8" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_8.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_8.jpg')" alt="product_carousel_8" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_9.png')" :src-placeholder="$withBase('/product_carousel_s_9.jpg')" alt="product_carousel_9" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_9.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_9.jpg')" alt="product_carousel_9" />
         </slide>
         <slide class="flex justify-center">
-          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_10.png')" :src-placeholder="$withBase('/product_carousel_s_10.jpg')" alt="product_carousel_10" />
+          <VLazyImageComponent :src="$withBase('/carousel/product_carousel_10.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_10.jpg')" alt="product_carousel_10" />
         </slide>
       </carousel>
     </ClientOnly>
