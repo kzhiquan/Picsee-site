@@ -9,6 +9,7 @@
         </dt>
         <dd class="mt-2 ml-16 text-sm text-gray-800">
             {{description}}
+            <a v-if="link" :href="link" style="color: #3eaf7c">查看详情</a>
         </dd>
     </div>
 

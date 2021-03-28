@@ -20,13 +20,13 @@
           <div class="p-5 w-48">
             <div class="uppercase font-medium">资源</div>
             <a class="my-3 block text-gray-500 text-sm" href="/version">更新日记</a>
-            <a class="my-3 block text-gray-500 text-sm" href="/#">隐私和条款</a>
+            <!--<a class="my-3 block text-gray-500 text-sm" href="/#">隐私和条款</a>-->
           </div>
           <div class="p-5 w-48">
             <div class="uppercase font-medium">联系我们</div>
-            <a class="my-3 block text-blue-500 text-sm" href="mailto:office.chitaner@gmail.com">office.chitaner@gmail.com</a>
-            <a class="my-3 block text-blue-500 text-sm" href="https://twitter.com/chitanerk">Twitter @chitanerk</a>
-            <a class="my-3 block text-blue-500 text-sm" href="https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ">Telegram群</a>  
+            <a class="my-3 block text-sm" style="color: #3eaf7c" href="mailto:office.chitaner@gmail.com">office.chitaner@gmail.com</a>
+            <a class="my-3 block text-sm" style="color: #3eaf7c" href="https://twitter.com/chitanerk">Twitter @chitanerk</a>
+            <a class="my-3 block text-sm" style="color: #3eaf7c" href="https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ">Telegram群</a>  
             <a class="my-3 block text-gray-500 text-sm" href="/#">QQ群: 663988917</a> 
           </div>
       </div>
@@ -36,7 +36,7 @@
 
       <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col md:flex-row max-w-6xl">
 
-          <div class="mt-2">© Copyright 2020. All Rights Reserved.</div>
+          <div class="mt-2">© Copyright 2021. All Rights Reserved.</div>
 
       </div>
 

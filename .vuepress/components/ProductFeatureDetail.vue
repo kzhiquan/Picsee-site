@@ -1,5 +1,5 @@
 <template>
-<div class="lg:max-w-5xl mx-auto">
+<div class="lg:max-w-5xl mx-auto" :id="routerHash">
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -119,6 +119,7 @@ export default {
         title: String,
         description: String,
         position: String, // Left/Right 以文本的位置判断
+        routerHash: String,
         features: Array
     },
     data: function () {

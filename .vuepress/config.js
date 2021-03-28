@@ -3,7 +3,7 @@ module.exports = {
     description: "专业的素材采集收藏、整理标记、查找查看、分享协同软件",
     serviceWorker: true,
     head: [
-      ['link', { rel: 'icon', href: '/product-logo.png'}]
+      ['link', { rel: 'icon', href: '/logo.png'}]
     ],
     themeConfig: {
       nav: [{ text: "首页", link: "/" }, 
