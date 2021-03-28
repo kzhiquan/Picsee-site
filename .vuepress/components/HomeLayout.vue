@@ -177,7 +177,7 @@ export default {
                             thumb: '/featureDetail/share/share_bed.png', 
                             title: '图床', 
                             show: '/featureDetail/share/share_bed.gif', 
-                            showPlaceHolder: '/featureDetail/share/share_bed_s.gif', 
+                            showPlaceHolder: '/featureDetail/share/share_bed_s.jpg', 
                             description: '支持阿里云、七牛云、SM.MS等10种图床，分享链接、撰写Markdown插入图片的得力助手。'
                         },
                         {
