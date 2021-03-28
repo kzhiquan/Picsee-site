@@ -34,6 +34,7 @@
         </div>
 
         <div class="mt-6 md:mt-20 md:col-span-5">
+            <ClientOnly>
               <carousel
                 ref="carousel"
                 class="carousel"
@@ -48,6 +49,7 @@
                         <VLazyImageComponent v-if="feature.showPlaceHolder" :src="$withBase(feature.show)" :src-placeholder="$withBase(feature.showPlaceHolder)" alt="feature show" />
                     </slide>
               </carousel>
+            </ClientOnly>
         </div>
 
     </div>
@@ -55,6 +57,7 @@
     <div v-if="position === 'Right' " class="md:grid md:grid-cols-8 md:gap-4">
 
         <div class="mt-6 md:mt-20 md:col-span-5">
+            <ClientOnly>
               <carousel
                 ref="carousel"
                 class="carousel"
@@ -69,6 +72,7 @@
                         <VLazyImageComponent v-if="feature.showPlaceHolder" :src="$withBase(feature.show)" :src-placeholder="$withBase(feature.showPlaceHolder)" alt="feature show" />
                     </slide>
               </carousel>
+            </ClientOnly>
         </div>
 
         <div class="md:col-span-3">
@@ -108,13 +112,13 @@
 
 <script>
 
-import { Carousel, Slide } from 'vue-carousel';
+//import { Carousel, Slide } from 'vue-carousel';
 import VLazyImageComponent from 'v-lazy-image';
 import FeatureDetail from "./FeatureDetail"
 
 
 export default {
-    components: { Carousel, Slide, VLazyImageComponent, FeatureDetail },
+    components: { /*Carousel, Slide,*/ VLazyImageComponent, FeatureDetail },
     props: {
         title: String,
         description: String,
