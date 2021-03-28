@@ -1,7 +1,7 @@
 <template>
   <div class="lg:max-w-5xl mx-auto">
     <ClientOnly>
-      <carousel class="carousel" :per-page="1" :center-mode="true" paginationPosition="bottom-overlay" :pagination-padding="0" >
+      <carousel class="carousel" :per-page="1" :center-mode="true" adjustable-height="false" paginationPosition="bottom-overlay" :pagination-padding="0" >
         <slide class="flex justify-center">
           <VLazyImageComponent :src="$withBase('/carousel/product_carousel_1.png')" :src-placeholder="$withBase('/carousel/product_carousel_s_1.jpg')" alt="product_carousel_1" />
         </slide>
