@@ -37,6 +37,7 @@ export default {
 
 <style lang="stylus" scoped>
 @import '../styles-1/custom.styl';
+
 @media screen and (min-width: 960px){
     .theme-default-content{
         min-width : 740px;

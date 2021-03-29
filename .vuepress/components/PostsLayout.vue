@@ -69,7 +69,6 @@ export default {
 
     clickTag(tag) {
         this.curTag = tag
-        console.log("tag:", tag)
     },
 
     isPostHidden(post) {

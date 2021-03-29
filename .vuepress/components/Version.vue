@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <Nav/>
-    <div style="max-width: 740px;margin: 0 auto;" class="py-8 px-6 pb-24 flex-grow content">
+    <div class="container mx-auto py-8 px-6 pb-24 flex-grow">
 
         <div class="flex flex-wrap content-start justify-start">
 
