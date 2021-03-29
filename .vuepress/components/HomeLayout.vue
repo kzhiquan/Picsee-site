@@ -120,7 +120,7 @@ export default {
                             num: 3, 
                             thumb: '/featureDetail/tidy/tidy_smartFolder.png', 
                             show: '/featureDetail/tidy/tidy_smartFolder.gif', 
-                            showPlaceHolder: '/tidy_smartFolder_s.jpg', 
+                            showPlaceHolder: '/featureDetail/tidy/tidy_smartFolder_s.jpg', 
                             title: '智能文件夹/任务', 
                             description: '根据名称、标签、颜色、尺寸、相似性等属性建立规则分类，提供快速入口。'
                         },
