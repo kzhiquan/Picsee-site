@@ -2,6 +2,17 @@
 layout: Version
 ---
 
+::: slot Button
+<div class="flex flex-wrap content-start justify-start">
+    <button class="border-2 py-2 px-4 font-bold rounded" 
+            :class="{'bg-purple-500 text-white border-transparent': isSelected(0)}" 
+            v-on:click="clickOS(0)">Mac</button>
+    <button class="ml-10 border-2 py-2 px-4 font-bold rounded" 
+            :class="{'bg-purple-500 text-white border-transparent': isSelected(1)}" 
+            v-on:click="clickOS(1)">Win</button>
+</div>
+:::
+
 ::: slot Win
 # 版本历史
 
