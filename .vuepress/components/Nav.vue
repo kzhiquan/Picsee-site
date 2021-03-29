@@ -1,13 +1,13 @@
 <template>
   <header class="bg-black text-indigo-200">
-    <nav class="flex items-center container mx-auto py-3 px-10">
+    <nav class="flex items-center lg:max-w-5xl mx-auto py-3 px-10">
       <ul class="flex">
         <li 
           v-for="item in $site.themeConfig.nav">
           <router-link 
             :to="item.link"
             :class="[isActive(item.link) ? 'text-white': '']" 
-            class="mr-10 hover:text-white">
+            class="mr-6 hover:text-white">
             {{item.text}}
           </router-link>
         </li>

@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <Nav/>
-    <div class="container mx-auto py-8 px-6 pb-24 flex-grow">
-
+    <div style="max-width: 740px;margin: 0 auto;" class="py-8 px-6 pb-24 flex-grow content">
+        
         <div class="flex flex-wrap content-start justify-start">
 
             <button class="border-2 py-2 px-4 font-bold rounded" 
@@ -14,12 +14,10 @@
                     v-on:click="clickOS(1)">Win</button>
 
         </div>
-
-        <div>
+        <!--<div>
             <Content slot-key="Mac" :class="{'hidden': !isSelected(0)}"/>
             <Content slot-key="Win" :class="{'hidden': !isSelected(1)}"/>
-        </div>
-        
+        </div>-->
     </div>
     <Footer/>
   </div>
