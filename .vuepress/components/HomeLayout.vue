@@ -205,13 +205,11 @@ export default {
                         title: '批量重命名',
                         thumb: '/featureMore/feature_rename.png', 
                         description: '支持根据尺寸、时间、光圈、焦距、镜头等属性，批量重命名。',
-                        link: ''
                     },
                     {
                         title: '寻找相似图片',
                         thumb: '/featureMore/feature_similarity.png', 
                         description: '根据图片布局、纹理布局的相似度，寻找相近的图片.',
-                        link: ''
                     },
                     {
                         title: '支持众多格式',
