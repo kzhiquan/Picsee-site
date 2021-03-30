@@ -3,5 +3,9 @@ module.exports = {
     extend: {}
   },
   variants: {},
-  plugins: []
+  plugins: [],
+  purge: {
+    enabled: true,
+    content: ['./.vuepress/components/*.vue']
+  },
 }

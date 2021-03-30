@@ -40,11 +40,10 @@
 
 <script>
 
-//import { Carousel, Slide } from 'vue-carousel';
 import VLazyImageComponent from 'v-lazy-image';
 
 export default {
-  components: { /*Carousel, Slide,*/ VLazyImageComponent },
+  components: { VLazyImageComponent },
 };
 
 </script>
