@@ -144,4 +144,12 @@ export default {
 
 <style lang="stylus" scoped>
 @import '../styles-1/custom.styl';
+
+.v-lazy-image {
+  filter: blur(10px);
+  transition: filter 0.7s;
+}
+.v-lazy-image-loaded {
+  filter: blur(0);
+}
 </style>
