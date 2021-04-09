@@ -7,7 +7,7 @@
       <div class="text-gray-800 flex flex-wrap justify-start">
           <div class="p-5 w-48">
             <div class="uppercase font-medium">产品</div>
-            <a class="my-3 block text-gray-500 text-sm" href="/blog/Picsee%E7%AE%80%E4%BB%8B.html">设计初终</a>
+            <a class="my-3 block text-gray-500 text-sm" href="/blog/Picsee%E7%AE%80%E4%BB%8B.html">设计初衷</a>
           </div>
           <div class="p-5 w-48">
             <div class="uppercase font-medium">功能</div>
