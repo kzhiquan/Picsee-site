@@ -1,6 +1,6 @@
 module.exports = {
-    title: "Picsee - 图片收集整理查看分享工具",
-    description: "专业的素材采集收藏、整理标记、查找查看、分享协同软件",
+    title: "Picsee - 看图 & 截图",
+    description: "专业的图片采集收藏、照片整理标记、查找查看、分享协同软件",
     serviceWorker: true,
     head: [
       ['link', { rel: 'icon', href: '/logo.png'}]
