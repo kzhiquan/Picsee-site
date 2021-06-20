@@ -2,7 +2,7 @@ language: node_js
 node_js: 
   - 15
 before_install:
-- openssl aes-256-cbc -K $encrypted_af69a2f770bb_key -iv $encrypted_af69a2f770bb_iv
+- openssl aes-256-cbc -K $encrypted_8fdff2d88322_key -iv $encrypted_8fdff2d88322_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host 47.242.5.249\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
