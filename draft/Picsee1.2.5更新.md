@@ -46,5 +46,6 @@
 - Telegram: [(https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)](https://t.me/joinchat/LLvGKBYvdMtz6z7SgYxJUQ)
 - 知乎专栏：https://www.zhihu.com/column/picsee
 - QQ群：663988917
+- Twitter：[Twitter @chitanerk](https://twitter.com/chitanerk)
 
 

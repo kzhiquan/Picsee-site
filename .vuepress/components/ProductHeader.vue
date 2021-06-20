@@ -12,9 +12,9 @@
                             <a target="_blank" href="https://apps.apple.com/cn/app/picsee-%E7%9C%8B%E5%9B%BE-%E6%88%AA%E5%9B%BE/id1454805783?mt=12">
                                 <img class="pt-4" :src="$withBase('/app_mac_store.png')" alt="mac app store">
                             </a>
-                            <a target="_blank" class="pl-4">
+                            <!-- <a target="_blank" class="pl-4">
                                 <img class="pt-4" :src="$withBase('/app_win_store.png')" alt="win app store">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
