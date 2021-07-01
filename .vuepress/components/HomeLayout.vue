@@ -216,6 +216,12 @@ export default {
                         thumb: '/featureMore/feature_knife.png',
                         description: '支持像素、矢量、RAW图片、视频、文档等50多种格式的预览或管理。',
                         link:'/blog/支持格式说明.html'
+                    },
+                    {
+                        title: '设置默认打开程序',
+                        thumb: '/featureMore/feature_open.png',
+                        description: '介绍一种设置多种格式文件默认打开程序为Picsee的方法',
+                        link:'/blog/Mac上设置默认打开程序.html'
                     }
 
                 ]

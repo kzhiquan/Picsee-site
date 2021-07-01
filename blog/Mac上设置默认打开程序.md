@@ -18,32 +18,32 @@ tags: ["看图"]
 这种设置方式，需要借助命令行工具。步骤如下：
 
 - 打开命令行（终端）工具。
-- 安装包管理工具**[Homebrew](https://brew.sh/index_zh-cn)**，复制下面这行代码到终端中，回车执行。（安装过的请略过）
+- 安装包管理工具[Homebrew](https://brew.sh/index_zh-cn)，复制下面这行代码到终端中，回车执行。（安装过的请略过）
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- 安装**[duti](https://github.com/moretension/duti)**工具，一个修改文件默认打开程序的命令行工具。复制下面这行代码到终端中，回车执行。（安装过的请略过）
+- 安装[duti](https://github.com/moretension/duti)工具，一个修改文件默认打开程序的命令行工具。复制下面这行代码到终端中，回车执行。（安装过的请略过）
 
 ```bash
 brew install duti
 ```
 
-- 点击**‌[duti_picsee](./images/Default_open/duti_picsee)**，下载duti的执行参数文件。
-- 执行duti命令，修改Picsee欲关联格式的默认打开方式。复制下面这行代码到终端中，并把“<.../duti_picsee>”替换为duti_picsee全路径名称，回车执行，或者直接在终端输入"duti ", 再直接拖拽下载到的duti_picee到终端里，回车执行。
+- 点击<a href="/blog/images/Default_open/duti_picsee.config" download>duti_picsee.config</a>，下载duti的执行参数文件。
+- 执行duti命令，修改Picsee欲关联格式的默认打开方式。复制下面这行代码到终端中，并把“<.../duti_picsee.config>”替换为duti_picsee.config全路径名称，回车执行，或者直接在终端输入"duti ", 再直接拖拽下载到的duti_picsee.config到终端里，回车执行。
 
 ```bash
-duti <.../duti_picsee>
+duti <.../duti_picsee.config>
 ```
 
 - 设置完成。
 
 
 
-### duti_picsee配置文件
+### duti_picsee.config配置文件
 
-```text
+```bash
 # 一行代表一种格式的设置, 此文件最后一行必须是空行
 #
 # 图片文件

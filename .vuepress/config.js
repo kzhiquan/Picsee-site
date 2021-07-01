@@ -28,10 +28,10 @@ module.exports = {
 
     chainWebpack: (config, isServer) => {
       config.module
-        .rule('zips')
-        .test(/\.zip$/)
+        .rule('files')
+        .test(/\.(zip|config)$/)
         .use('file-loader')
-          .loader('file-loader')
+        .loader('file-loader')
         .options({
           name: `[path][name].[ext]`
         });
