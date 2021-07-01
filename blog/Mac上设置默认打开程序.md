@@ -30,7 +30,7 @@ tags: ["看图"]
 brew install duti
 ```
 
-- 点击<a href="/blog/images/Default_open/duti_picsee.config" download>duti_picsee.config</a>，下载duti的执行参数文件。
+- 点击配置文件:<a href="/blog/images/Default_open/duti_picsee.config" download>duti_picsee.config</a>，下载duti的执行参数配置文件。
 - 执行duti命令，修改Picsee欲关联格式的默认打开方式。复制下面这行代码到终端中，并把“<.../duti_picsee.config>”替换为duti_picsee.config全路径名称，回车执行，或者直接在终端输入"duti ", 再直接拖拽下载到的duti_picsee.config到终端里，回车执行。
 
 ```bash
@@ -42,6 +42,8 @@ duti <.../duti_picsee.config>
 
 
 ### duti_picsee.config配置文件
+
+[duti_picsee.config](./images/Default_open/duti_picsee.config)文件如下：
 
 ```bash
 # 一行代表一种格式的设置, 此文件最后一行必须是空行
