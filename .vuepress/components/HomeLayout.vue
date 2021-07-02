@@ -220,7 +220,7 @@ export default {
                     {
                         title: '设置默认打开程序',
                         thumb: '/featureMore/feature_open.png',
-                        description: '介绍一种设置多种格式文件默认打开程序为Picsee的方法',
+                        description: '怎么设置默认打开程序为Picsee？',
                         link:'/blog/Mac上设置默认打开程序.html'
                     }
 
